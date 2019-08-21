@@ -1,57 +1,71 @@
 body {
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-size: 16px;
-    line-height: 1.5
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.5
+}
+
+ol, ul {
+  padding-left: 20px;
 }
 
 nav {
-    visibility: hidden;
-}
-
-/* Change if height of navigation changes. */
-.anchor {
-    padding-top: 20px;
-    margin-top: -20px;
+  visibility: hidden;
 }
 
 blockquote {
-    font-size: 16px !important;
-    margin-bottom: 0;
+  font-size: 16px !important;
+  margin-left: -17px;
 }
 
 .header {
-    width: 100%;
-    display: table;
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    padding: 0 10px 0 10px;
-}
-
-.header-text {
-    color: white;
-    text-shadow: 0 0 12px #000000;
+  width: 100%;
+  display: table;
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  padding: 50px 10px 0 10px;
 }
 
 .header-content {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .image-bg-header {
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background: url('../images/banner-bg-2016-blurred.jpg') no-repeat center center scroll;
+  text-align: center;
+    background: url('../images/background.png') no-repeat center center scroll;
+  background-size: cover;
+  height: 400px;
+}
+
+.image-bg-teaching {
+    background: url('../images/banner-teaching-2018.jpg') no-repeat center center scroll;
+  background-size: cover;
+  height: 150px;
+}
+
+@media (min-width: 768px) {
+  .image-bg-teaching {
     height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-bg-teaching {
+    height: 450px;
+  }
 }
 
 .img-center {
-    display: block;
     margin: 0 auto;
 }
 
 .img-portrait {
+    width: 150px;
+    height: 150px;
+    border: 0px solid white;
+    border-radius: 16px;
+}
+
+.img-portrait-circle {
     width: 120px;
     height: 120px;
     border: 0px solid white;
@@ -64,7 +78,7 @@ blockquote {
 
 .float-item {
     float: left;
-    margin: 0 12px 0 0;
+    margin: 0 16px 0 0;
     text-align: center;
 }
 
@@ -75,18 +89,38 @@ blockquote {
     line-height: 0px;
 }
 
-.well-info {
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+.header-text {
+    color: white;
+    text-shadow: 0 0 12px #000000;
+}
+
+.lead {
+    margin-top: 20px;
 }
 
 section {
     padding: 40px 0 0 0;
 }
 
+section#news {
+    padding: 0;
+}
+
 aside {
     margin-top: 40px;
+}
+
+.portfolio-item {
+    max-width: 360px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.img-portfolio {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #DDDDDD;
+    border-radius: 80px
 }
 
 footer {
@@ -98,10 +132,12 @@ footer {
         visibility: visible;
     }
 
-    /* Change if height of navigation changes. */
-    .anchor {
-        padding-top: 70px;
-        margin-top: -70px;
+    .lead {
+        font-size: 18px;
+    }
+
+    section, section#news {
+        padding: 50px 0 0 0;
     }
 
     aside {

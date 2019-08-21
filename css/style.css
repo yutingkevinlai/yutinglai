@@ -733,7 +733,8 @@ body {
 #footer div ul #rss a:hover {
 	background-position: -32px -111px;
 }
-/*新增的css*/
+
+/* newly added css*/
 div.language{
 	text-align:center;
 	padding:12px 6px 0 0;
