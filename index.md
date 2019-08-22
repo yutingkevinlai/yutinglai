@@ -1,133 +1,57 @@
-<!DOCTYPE HTML>
-<!-- Website Template by freewebsitetemplates.com -->
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
-	<title>Yu Ting Lai</title>
+<div class="container">
 
-	<meta name="author" content="yutinglai">
-	<!-- Facebook open graph-->
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="yutinglai" />
-	<meta property="og:url" content="https://yutingkevinlai.github.io/yutinglai/home.html" />
-	<meta property="og:image" content="https://yutingkevinlai.github.io/yutinglai/images/k.png" />
+<div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#yutinglai-navbar-collapse"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>[Yu Ting Lai](home.html)</div>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/main.css">
-	<link rel="shortcut icon" href="images/k.png">
-</head>
+<div class="collapse navbar-collapse" id="yutinglai-navbar-collapse">
 
-<body>
-	
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	<div class="container">
-	  <div class="navbar-header">
-    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#yutinglai-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <a id="nav~~top" class="navbar-brand" href="home.html">Yu Ting Lai</a>
-	 	</div>
-	  	<div class="collapse navbar-collapse" id="yutinglai-navbar-collapse">
-	    	<ul class="nav navbar-nav">
-	      	<li>
-	        	<a id="nav~~home" href="#aboutme">About Me</a>
-	     	</li>
-	     	<li>
-	     	</li>
-	     	<li>
-	        	<a id="nav~~member" href="research.html">Research</a>
-	     	</li>
-	     	<li>
-	     	</li>
-	     	<li>
-	        	<a id="nav~~direction" href="blog.html">Blog</a>
-	     	</li>
-	    </ul>
-	  </div>
-	</div>
-	</nav>
-	
-	<header class="header image-bg-header">
-		<div class="header-content header-text">
-		  <img class="img-center img-portrait" src="./images/me_2.jpg" alt="">
-      <h3>Yu Ting Lai</h3>
-      <!--<p>PhD student, MAE, UCLA
-      <br/>Email: yutingkevinlai@g.ucla.edu
-      </p>-->
-    </div>
- 	</header>
+*   [About Me](#aboutme)
 
- 	<section id="aboutme">
- 		<div class="container">
- 			<h2 class="section-heading">About Me</h2>
- 		</br>
- 		</div>
- 	</section>
+*   [Research](research.html)
 
+*   [Blog](blog.html)
 
-	
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-					<br>
-					<h3 class="section-heading">About Me</h3>
-					<br>
-					
-					<br>
-          			<h4 id="activity01" class="anchor">Activities</h4>
-				<div id="activity01-image">
-          				<h4> 2018/09 Celebrate birthday</h4>
-              			<blockquote>
-              				<img src="images/2018_birthday.jpg" alt="" style="width:600px;">
-              			</blockquote>
-            		</div>
-				<div id="activity01-image">
-          				<h4> 2018/06 Gathering</h4>
-              			<blockquote>
-					<img src="images/2018_r.jpg" alt="" style="width:600px;">
-              			</blockquote>
-			</div>
-          			<div id="activity01-image">
-          				<h4> 2018/03 Gathering</h4>
-              			<blockquote>
-              				<img src="images/2018_gather.jpg" alt="" style="width:600px;">
-              			</blockquote>
-            		</div>
-          			<div id="activity01-image">
-              			<blockquote>
-              				<img src="images/xlab_home.jpg" alt="" style="width:600px;">
-              			</blockquote>
-            		</div>
-				</div>
-			</div>
+</div>
 
-		</div>
-	</section>
-	
-	<!-- Footer -->
-	<footer>
-		<div class="container">
-    		<div class="row">
-    			<div class="col-sm-12">
-    				<p class="text-right">Copyright &copy; Yu Ting Lai</p>
-        	</div>
-    		</div>
-    	</div>
-  	</footer>
+</div>
 
+</nav>
 
-	<!-- jQuery -->
-  
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Bootstrap Core JavaScript -->
-  
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-</html>
+<header class="header image-bg-header">
+
+<div class="header-content header-text">![](./images/me_2.jpg)
+
+### Yu Ting Lai
+
+</div>
+
+</header>
+
+<section id="aboutme">
+
+<div class="container">
+
+## About Me
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-sm-12">
+
+Copyright © Yu Ting Lai
+
+</div>
+
+</div>
+
+</div>
+
+</footer>
