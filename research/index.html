@@ -8,51 +8,40 @@
 	<link rel="stylesheet" media="all" href="s.css" />
 </head>
 <body><div id="c"><div id="h">
-<h1><a href="index.html" title="Home">Yuting Lai</a></h1>
+<h1><a href="../" title="Home">Yuting Lai</a></h1>
 <div id="n"><ul>
-	<li><a href="research.html" title="Research" class="a">Research</a></li>
-	<li><a href="cv.html" title="Curriculum Vitae (CV)">cv	</a></li>
+	<li><a href="../research" title="Research" class="a">Research</a></li>
+	<li><a href="../cv" title="Curriculum Vitae (CV)">cv	</a></li>
 	<li><a href="publications.html" title="Publications">Publications</a></li>
 	<li><a href="outreach.html" title="Outreach">Outreach</a></li>
 	<li><a href="resources.html" title="Shared Resources">Resources</a></li>
-	<li><a href="contact.html" title="Contact">Contact</a></li></ul>
+	<li><a href="../contact" title="Contact">Contact</a></li></ul>
 	</div>
 </div>
 <div id="cm">
 
-<h2>Research</h2>
+<h2>Current Projects</h2>
 
-<p>My research areas include the design, manufacture, and control of robotic systems 
-	as well as 
-<!-- This includes a focus on automated intraocular robotic surgical systems and  -->
-image processing of optical coherence tomography (OCT) data.</p>
+<p>My research areas include the design and control of robotic systems
+	as well as sensor fusion and
+	<!-- This includes a focus on automated intraocular robotic surgical systems and  -->
+image processing.</p>
 
 <div class="res">
-	<img src="i/resRVC.jpg" />
-	<h4>Fully Automated OCT-Guided Retinal Vein Cannulation</h4>
-	<p>Retinal vein occlusion is one of the most common
-causes of vision loss, occurring when a blood clot or other
-obstruction occludes a retinal vein. A potential remedy for retinal
-vein occlusion is retinal vein cannulation, a surgical procedure
-that involves infusing the vein with an antifibrinolytic to restore
-blood flow through the vascular lumen. This work presents
-an image-guided robotic system capable of performing fully
-automated retinal vein cannulation on silicone phantoms. The
-system is integrated with an optical coherence tomography probe
-and camera to provide visual feedback to guide the robotic
-system. Through automation, the developed system reduces the
-challenges of manually performed vein access and infusion and
-overcomes the inherent physiological limitations of a human
-surgeon. The system was evaluated through a set of experimental
-trials and shown to be capable of performing automated retinal
-vein cannulation with no surgical complications. The developed
-technology is expected to lead to improvements in vitreoretinal
-surgical procedures such as subretinal injection or other tech-
-niques which are difficult or infeasible to perform with traditional
-methods.</p>
-	<p class="pub">Selected Publication:<br />
-	<strong>Optical Coherence Tomography&#8211;Guided Robotic System for Automated Retinal Microsurgery</strong><br />
-		<u>M.J. Gerber</u>, PhD Dissertation, University of California, Los Angeles (2019). <a href="https://escholarship.org/uc/item/85t2n7c0" title="escholarship">Permalink</a> | <a href="../papers/mjgerber_dissertation.pdf" title="PDF">PDF</a></p>
+	<img src="./i/iriss_v3.gif">
+	<h4>Robotic Trajectory Planning for Cataract Eye Surgery</h4>
+	<p>Cataract surgery requires extremely precise manipulation, which motivates us to use a small-size manipulator from
+		<a href="https://www.mecademic.com/products/Meca500-small-robot-arm">Meca500</a>.
+		The robot is able to reach a 0.005(mm) repeatability which suits our needs.
+		We parameterized the eye model to fits different shapes of ex-vivo pig eyes or human eyes.
+		We then do the trajectory planning inside the lens for the anterior capsule and posterior capsule.
+		At the same time, the tool is pivoted at the remote center of motion (RCM) to reduce any rupture of the eye.
+		The current stage of the project is to validate the whole cataract surgery process in simulation before experimentally run with any real eyes.
+</div>
+<!--
+<div class="res">
+	<h4>Manipulator Collaboration</h4>
+	<p>
 </div>
 
 <div class="res">
@@ -63,32 +52,66 @@ surgery have been improved by automating several procedures. The cataract-extrac
 step continues to be manually performed, but due to deficiencies in sensing capabilities,
 surgical complications such as posterior capsule rupture and incomplete cataract removal remain.
 An optical coherence tomography (OCT) system was integrated into the intraocular
-robotic interventional surgical system (IRISS) robot. 
-The OCT data was used for preoperative planning and intraoperative intervention in a series of automated procedures. 
+robotic interventional surgical system (IRISS) robot.
+The OCT data was used for preoperative planning and intraoperative intervention in a series of automated procedures.
 Real-time intervention allowed the surgeon to evaluate the progress and override the operation.
-The developed system was validated by performing lens extraction on 30 <em>ex vivo</em> pig eyes. 
+The developed system was validated by performing lens extraction on 30 <em>ex vivo</em> pig eyes.
 Complete lens extraction was achieved on 25 eyes, and ‘‘almost complete’’ extraction
 was achieved on the remainder due to an inability to image small lens particles behind the iris.
 No capsule rupture was found.</p>
 	<p class="pub">Selected Publication:<br />
 	<strong>Semiautomated Optical Coherence Tomography-Guided Robotic Surgery for Porcine Lens Removal</strong>, C.W. Chen, A.A. Francone, <u>M.J. Gerber</u>, Y.H. Lee, A. Govetto, T.C. Tsao, and J.P. Hubschman, <em>Journal of Cataract &amp; Refractive Surgery</em>, vol. 45(11), pp. 1665&#8211;1669, 2019, <a href="https://doi.org/10.1016/j.jcrs.2019.06.020" title="DOI">DOI</a> | <a href="../papers/paper_2019iriss.pdf" title="PDF">PDF</a></p>
 </div>
-
+-->
+<h2>Selected Past Projects</h2>
 <div class="res">
-	<img src="i/resQuadrotor.jpg" />
-	<h4>Quadrotor with Twisting and Tilting Rotors for Omnidirectional Thrust Vectoring</h4>
-	<p>In this project, I introduced a flying vehicle that overcomes the inherent maneuverability limitations of traditional multirotors. Full directional authority is enabled on each individual thrust vector by introducing two additional degrees of freedom (twist and tilt) to each rotor. The resulting system possesses omnidirectional thrust-vectoring capabilities, fully decouples the position and attitude dynamics, and minimizes wasted thrust over its entire configuration space. The device is capable of achieving any arbitrary body orientation, thereby allowing the device to angle itself with respect to a work surface for the purpose of physical interaction. Potential applications include performing tooling operations in out-of-reach places such as cellphone towers, skyscrapers, wind turbines, elevator shafts, and the fuselages of aircraft bodies during construction.</p>
-	<p class="pub">Selected Publication:<br />
-	<strong>Twisting and Tilting Rotors for High-Efficiency, Thrust-Vectored Quadrotors</strong>, <u>M.J. Gerber</u> and T.C. Tsao, <em>Journal of Mechanisms and Robotics</em>, Dec 2018, 10(6): 061013, <a href="https://doi.org/10.1115/1.4041261" title="DOI">DOI</a> | <a href="../papers/paper_2018quadcopter.pdf" title="PDF">PDF</a></p>
+	<img src="./i/traffic_light.gif">
+	<h4>Traffic Light Recognition in a Dynamic Street Scene</h4>
+	<p>Traffic light detection has been well-developed for years.
+		However, the algorithms are not deployable across contries where the traffic lights are different from culture to culture.
+		In this project, I developed a traffic light detection and recognition module based on robotic operating system (ROS) and C++.
+		It incorporates localization of a vehicle and sensor fusion to identify the correct position of a traffic light.
+		This module has been integrated into an autonomous vehicle and tested on the street (15km, 40 mins) in Taiwan.
+	</p>
 </div>
 
+<div class="res">
+	<img src="./i/slam_object_paths.png" />
+	<h4>SLAM with Moving Object Removal</h4>
+	<p>The goal of this poject is to construct a static map in the real world using SLAM.
+		The result of SLAM would contain the trajectories of moving objects, which will form clear paths in the constructed map.
+		These objects are temporary which will not exist in later lidar scans when doing localization.
+		This will cause localization problem if the vehicle constructed the map from a relatively dynamical scene.
+		To remove these paths, we proposed an algorithm to remove moving objects and retain only static objects in lidar scans prior to map construction.
+	<a href="https://github.com/yutingkevinlai/velodyne_slam" title="Github">Github</a> | <a href="./docs/slam_moving_object_removal.pdf" title="PDF">PDF</a>
+	</p>
+</div>
 
-
-
+<div class="res">
+	<img src="./i/anomaly_detection.png" />
+	<h4>Industrial Defect Inspection using Generative Adversarial Networks</h4>
+	<p>Defect inspection is one of most importants stage in product manufacturing process. Computer
+image processing technique is the most commonly used method to detect defects. Usually the methods
+need to define defects, build a mathematical model, and set a reasonable threshold value. This requires
+human operators to annotate defects in advance, and a large amount of defect dataset to ensure that the
+threshold value can achieve a low false positive rate while maintaining a reasonable false positive rate.
+Since industrial image datasets are mostly sparse in defects, it is hard for automated optical inspection
+(AOI) machines to inspect all defects effectively.
+We proposed a novel framework for industrial anomaly detection in an unsupervised manner which does not need tedious annotation in advance.
+The results show that GANs are able to capture arbitrary and structural industrial images.
+Moreover, extensive experimental results on real industrial datasets show that the proposed method can successfully construct the surface texture
+pattern generator. By transforming the image through the generator to the corresponding latent space,
+the defects can be subsequently separated effectively without annotation in a large amount of training
+data. Thus, the proposed method only need defect-free images in the training stage, that is, it belongs
+to an one-class classification task.
+	</p>
+	<p class="pub">Selected Publication:<br />
+	<strong>A Texture Generation Approach for Detection of Novel Surface Defects</strong>, <u>Y.T. Lai</u> and J.S. Hu, <em>IEEE International Conference on System, Man, and Cybernetics</em>, Oct 2018, <a href="https://doi.org/10.1109/SMC.2018.00736" title="DOI">DOI</a> | <a href="./docs/2018_surface_inspection.pdf" title="PDF">PDF</a></p>
+</div>
 
 </div><!--#cm-->
 <div id="f">
-	<span>&copy;2020&#8211;2020 Yuting Lai</span>
+	<span>&copy;2020 Yuting Lai</span>
 	<span><strong><a href="mailto:yutingkevinlai@ucla.edu">yutingkevinlai@ucla.edu</a></strong></span>
 	<span>1540 Boelter Hall, 420 Westwood Plaza, Los Angeles, CA</span>
 	</div>
