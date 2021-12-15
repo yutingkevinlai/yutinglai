@@ -31,7 +31,49 @@ h1{border-bottom:2px solid #eee;letter-spacing:1px;clear:both;font-family:Verdan
 #f span:after{content:'\a0\b7\a0'}
 #f span:last-child:after{content:''}
 
-
+/* portfolio */
+#port {
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	}
+#port h2 {
+	clear: both;
+	width: 100%;
+	}
+#port a.pp {
+	display: block;
+	width: 32%;
+	float: left;
+	border-radius: 0.3em;
+	margin-bottom: 1em;
+	font-weight: normal;
+	color: #222;
+	}
+#port a.pp {
+	border: 1px solid #d9d8d8;
+	}
+#port a.pp:hover {
+	border: 1px solid #c81a3c;
+	}
+#port a.pp img {
+	width: 100%;
+	border-top-right-radius: 0.3em;
+	border-top-left-radius: 0.3em;
+	}
+#port a.pp span {
+	font-size: 0.9em;
+	color: #aaa;
+	}
+#port a.pp p {
+	margin: 0.5em;
+	line-height: 1.4em;
+	}
+#port a.pp p + p {
+	font-size: 0.8em;
+	font-style: italic;
+	}
 
 /*main content*/
 #cm{
