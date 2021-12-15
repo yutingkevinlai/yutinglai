@@ -23,33 +23,7 @@ body{
 h1{border-bottom:2px solid #eee;letter-spacing:1px;clear:both;font-family:Verdana,sans-serif;margin:1.2em 0 0 0;font-size:2em;padding:0 0 1em 1em;}
 #h h1 a{color:#333;text-decoration:none;}
 #h h1 a:hover{color:#c81a3c}
-/* right image */
 
-
-#h{
-	border-bottom: 1px solid #d9d8d8;
-	margin:3em 0 0 0;
-	position: relative;
-	min-height: 3em;
-	}
-#hl{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	margin: 0 0 1em 0;
-	}
-#hr{
-	position: absolute;
-	bottom: 0;
-	right:0;
-	height: 26px;
-	margin: 0 0 1em 0;
-	line-height: 26px;
-	}
-#hr img{
-	float:left;
-	margin: 0 1em 0 0;
-	}
 
 /*navigation*/
 #n{clear:both;padding:1em 2em 1em 2em;overflow:hidden;border-bottom:2px solid #eee;}
