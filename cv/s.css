@@ -45,6 +45,20 @@ font:14px/20px Verdana,sans-serif;}
 #cm .res img{float:left;width:40%;padding:0 1em 1em 0;margin:0;overflow:hidden;}
 #cm .res h4{margin:0 0 1em 0};
 
+#cm p {
+	float: right;
+	width: 76%;
+	border-left: 1px solid #d9d8d8;
+	padding: 0 0 0 2%;
+	margin: 0 0 0.5em 0;
+	}
+
+#cm p.clear {
+	background-color: #eee;
+	margin: 1em 0;
+	padding: 0.5em 0.8em;
+	}
+
 /* resume */
 ul.r {
 	margin: 0 0 1em 0;
