@@ -22,52 +22,26 @@
 <div id="cm">
 
 
-<p>My research areas include the design and control of robotic systems
-	as well as sensor fusion and
-	<!-- This includes a focus on automated intraocular robotic surgical systems and  -->
-image processing.</p>
+<!-- <div id="port"> -->
+<h2>Project Page - Traffic Light Detection</h2>
 
-<div id="port">
-<h2>Current Projects</h2>
-
-<a href="portfolio/RVC/index.php" title="Individual Project Page" class="pp">
+<!-- <a href="portfolio/RVC/index.php" title="Individual Project Page" class="pp">
 	<img src="portfolio/RVC/overview.png" alt="">
 	<p>
 		<strong>Posterior Capsule Polishing</strong><br />
 		<span>12/2021</span><br />
 		Automated OCT-guided robotic posterior capsule polishing on the pig eye.</p>
 	<p>Autonomous Guidance / OCT Guidance / Surgical Robotics</p>
-</a>
+</a> -->
 
-<div class="res">
+<!-- <div class="res">
 	<img src="./i/lens_extraction.gif">
 	<h4>Automated Cataract Lens Extraction</h4>
 	<p>The cataract extraction was automatically done by robotic arm.
 	</p>
-</div>
+</div> -->
 
-<div class="res">
-	<img src="./i/iriss_v3.gif">
-	<h4>Robotic Trajectory Planning for Cataract Eye Surgery</h4>
-	<p>Cataract surgery requires extremely precise manipulation, which motivates us to use a small-size manipulator from
-		<a href="https://www.mecademic.com/products/Meca500-small-robot-arm">Meca500</a>.
-		The robot is able to reach a 0.005(mm) repeatability which suits our needs.
-		We parameterized the eye model to fits different shapes of ex-vivo pig eyes or human eyes.
-		We then do the trajectory planning inside the lens for the anterior capsule and posterior capsule.
-		At the same time, the tool is pivoted at the remote center of motion (RCM) to reduce any rupture of the eye.
-		The current stage of the project is to validate the whole cataract surgery process in simulation before experimentally run with any real eyes.
-	</p>
-</div>
 
-<div class="res">
-	<img src="./i/itri.png">
-	<h4>Iterative Learning Control (ILC) for Manipulator Collaboration</h4>
-	<p>Manipulators are common in industrial applications. It can perform repetative tasks precisely.
-		However, for aerospace applications, it requires higher precision on the manufacture of aircrafts and rockets.
-		To achieve this, errors on the position should be minimized as well as the contacting force between two agents to avoid any deformation.
-		In this study, we focus on reducing the position error and internal force between two 6-joint manipulators by iterative learning control (ILC).
-	</p>
-</div>
 <!--
 <div class="res">
 	<img src="i/resIRISS.jpg" />
@@ -88,55 +62,13 @@ No capsule rupture was found.</p>
 	<strong>Semiautomated Optical Coherence Tomography-Guided Robotic Surgery for Porcine Lens Removal</strong>, C.W. Chen, A.A. Francone, <u>M.J. Gerber</u>, Y.H. Lee, A. Govetto, T.C. Tsao, and J.P. Hubschman, <em>Journal of Cataract &amp; Refractive Surgery</em>, vol. 45(11), pp. 1665&#8211;1669, 2019, <a href="https://doi.org/10.1016/j.jcrs.2019.06.020" title="DOI">DOI</a> | <a href="../papers/paper_2019iriss.pdf" title="PDF">PDF</a></p>
 </div>
 -->
-<h2>Selected Past Projects</h2>
-<div class="res">
-	<img src="./i/traffic_light.gif">
-	<h4>Traffic Light Recognition in a Dynamic Street Scene</h4>
-	<p>Traffic light detection has been well-developed for years.
-		However, the algorithms are not deployable across contries where the traffic lights are different from culture to culture.
-		In this project, I developed a traffic light detection and recognition module based on robotic operating system (ROS) and C++.
-		It incorporates localization of a vehicle and sensor fusion to identify the correct position of a traffic light.
-		This module has been integrated into an autonomous vehicle and tested on the street (15km, 40 mins) in Taiwan.
-	</p>
-</div>
 
-<div class="res">
-	<img src="./i/slam_object_paths.png" />
-	<h4>SLAM with Moving Object Removal</h4>
-	<p>The goal of this poject is to construct a static map in the real world using SLAM.
-		The result of SLAM would contain the trajectories of moving objects, which will form clear paths in the constructed map.
-		These objects are temporary which will not exist in later lidar scans when doing localization.
-		This will cause localization problem if the vehicle constructed the map from a relatively dynamical scene.
-		To remove these paths, we proposed an algorithm to remove moving objects and retain only static objects in lidar scans prior to map construction.
-	<a href="https://github.com/yutingkevinlai/velodyne_slam" title="Github">Github</a> | <a href="./docs/slam_moving_object_removal.pdf" title="PDF">PDF</a>
-	</p>
-</div>
-
-<div class="res">
-	<img src="./i/anomaly_detection.PNG" />
-	<h4>Industrial Defect Inspection using Generative Adversarial Networks</h4>
-	<p>Defect inspection is one of most importants stage in product manufacturing process. Computer
-image processing technique is the most commonly used method to detect defects. Usually the methods
-need to define defects, build a mathematical model, and set a reasonable threshold value. This requires
-human operators to annotate defects in advance, and a large amount of defect dataset to ensure that the
-threshold value can achieve a low false positive rate while maintaining a reasonable false positive rate.
-Since industrial image datasets are mostly sparse in defects, it is hard for automated optical inspection
-(AOI) machines to inspect all defects effectively.
-We proposed a novel framework for industrial anomaly detection in an unsupervised manner which does not need tedious annotation in advance.
-The results show that GANs are able to capture arbitrary and structural industrial images.
-Moreover, extensive experimental results on real industrial datasets show that the proposed method can successfully construct the surface texture
-pattern generator. By transforming the image through the generator to the corresponding latent space,
-the defects can be subsequently separated effectively without annotation in a large amount of training
-data. Thus, the proposed method only need defect-free images in the training stage, that is, it belongs
-to an one-class classification task.
-	</p>
-	<p class="pub">Selected Publication:<br />
-	<strong>A Texture Generation Approach for Detection of Novel Surface Defects</strong>, <u>Y.T. Lai</u> and J.S. Hu, <em>IEEE International Conference on System, Man, and Cybernetics</em>, Oct 2018, <a href="https://doi.org/10.1109/SMC.2018.00736" title="DOI">DOI</a> | <a href="./docs/2018_surface_inspection.pdf" title="PDF">PDF</a></p>
-</div>
 
 </div><!--#cm-->
+
+<!-- footer -->
 <div id="f">
-	<span>&copy;2020 Yuting Lai</span>
+	<span>&copy;2021 Yuting Lai</span>
 	<span><strong><a href="mailto:yutingkevinlai@ucla.edu">yutingkevinlai@ucla.edu</a></strong></span>
 	<span>1540 Boelter Hall, 420 Westwood Plaza, Los Angeles, CA</span>
 	</div>
