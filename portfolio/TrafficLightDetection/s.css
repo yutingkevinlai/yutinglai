@@ -8,10 +8,6 @@ body{background:#eee;height:100%}
 /* content */
 #c{clear:both;margin:1em auto 0 auto;overflow:hidden;padding:0;background:#fff;width:56.25em;}
 
-h2 {
-	border-bottom: 1px solid #d9d8d8;
-	}
-
 /*header */
 #h{clear:both;}
 h1{border-bottom:2px solid #eee;letter-spacing:1px;clear:both;font-family:Verdana,sans-serif;margin:1.2em 0 0 0;font-size:2em;padding:0 0 1em 1em;}
