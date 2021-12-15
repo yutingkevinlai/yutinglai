@@ -45,6 +45,14 @@ font:14px/20px Verdana,sans-serif;}
 #cm .res img{float:left;width:40%;padding:0 1em 1em 0;margin:0;overflow:hidden;}
 #cm .res h4{margin:0 0 1em 0};
 
+#splash {
+	overflow: hidden;
+	margin: 1em 0 0 0;
+	}
+#splash img {
+	width: 4%;
+	float: left;
+	}
 
 /* typo*/
 p.i{margin:1em;padding:1em;border:1px solid #f90;}
