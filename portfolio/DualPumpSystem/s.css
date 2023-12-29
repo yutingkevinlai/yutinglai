@@ -35,17 +35,16 @@ h1{border-bottom:2px solid #eee;letter-spacing:1px;clear:both;font-family:Verdan
 #port {
 	overflow: hidden;
 	display: flex;
-	justify-content: stretch;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	}
 #port h2 {
 	clear: both;
 	width: 100%;
-	border-bottom: 1px solid #d9d8d8;
 	}
 #port a.pp {
 	display: block;
-	width: 33%;
+	width: 32%;
 	float: left;
 	border-radius: 0.3em;
 	margin-bottom: 1em;
@@ -98,10 +97,55 @@ a:hover,a:active{color:#3185C1}
 #prof{width:20em;float:left;padding:0 2em 3em 0;}
 
 h2{font-size:1.3em;line-height:2em;margin:1em 0 0.5em 0;color:#555;clear:both;}
-h3{padding:0.2em 1em;background:#eee;font-style:italic;margin:0 -1em 1em -1em;}
+h3{padding: 0.2em 1em; background: #eee; font-style: italic; margin: 0 -1em 1em -1em;}
 
 ul.p span{font-size:0.9em;padding-left:1em;}
 
-#cm li{padding:0 0 0 1.4em;background-image:url(i/r.gif);background-repeat:no-repeat;background-position:0.5em 0.5em;margin:0 0 0.5em 0;}
-#cm ul{padding:0 0 1.2em 0;overflow:hidden;}
-#cm p{margin:0 0 1.2em 0;}
+/* #cm li{padding:0 0 0 1.4em;background-image:url(i/r.gif);background-repeat:no-repeat;background-position:0.5em 0.5em;margin:0 0 0.5em 0;} */
+/* #cm ul{padding:0 0 1.2em 0;overflow:hidden;} */
+/* #cm p{margin:0 0 1.2em 0;} */
+
+#cm ul.r li p {
+	float: right;
+	width: 76%;
+	border-left: 1px solid #d9d8d8;
+	padding: 0 0 0 2%;
+	margin: 0 0 0.5em 0;
+	}
+
+/* red arrows */
+ul.a {
+	padding: 0 0 0 2em;
+	margin: 0 0 2em 0;
+	}
+ul.a li::before {
+	content: "\000BB\a0\a0";
+	color: #c81a3c;
+	font-weight: bold;
+	display: inline-block;
+	width: 1.2em;
+	margin-left: -1.2em;
+	}
+
+/* project description */
+#pi, #pi ul.p {
+	overflow: hidden;
+	}
+#pi ul.p li {
+	overflow: hidden;
+	padding: 0 0 1em 0;
+	margin: 0 0 1em 0;
+	}
+#pi img {
+	width: 49%;
+	float: left;
+	}
+#pi ul.p li p {
+	width: 49%;
+	float: right;
+	}
+#desc {
+	border-bottom: 1px solid #d9d8d8;
+	padding: 0 0 1em 0;
+	margin: 0 0 1em 0;
+	}
