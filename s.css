@@ -70,6 +70,37 @@ h3{padding:0.2em 1em;background:#eee;font-style:italic;margin:0 -1em 1em -1em;}
 
 ul.p span{font-size:0.9em;padding-left:1em;}
 
-#cm li{padding:0 0 0 1.4em;background-image:url(i/r.gif);background-repeat:no-repeat;background-position:0.5em 0.5em;margin:0 0 0.5em 0;}
+/* #cm li{padding:0 0 0 0.6em;background-image:url(i/r.gif);background-repeat:no-repeat;background-position:0.5em 0.5em;margin:0 0 0.5em 0;} */
 #cm ul{padding:0 0 1.2em 0;overflow:hidden;}
 #cm p{margin:0 0 1.2em 0;}
+
+
+#cm ol { padding-left: 50px; }
+
+#cm li{
+  color: #4F4F4F;
+  padding-left: 20px;
+  margin-top: 10px;
+  position: relative;
+  font-size: 14px;
+  line-height: 16px;
+
+  &:before {
+    content: '';
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    position: absolute; // yeah, you have to manually position it based on the text size, line height, etc. (in the parent li style). it's not the smarest solution
+    top: -0px;
+    left: -0px;
+  }
+}
+
+/* strong { color: #292929; } */
+
+#cm ol.alternating-colors {
+  li:nth-child(odd):before { border-color: #0BAD02; }
+  li:nth-child(even):before { border-color: #2378D5; }
+}
