@@ -47,8 +47,8 @@ h1{border-bottom:2px solid #eee;letter-spacing:1px;clear:both;font-family:Verdan
 	display: block;
 	width: 33%;
 	float: left;
-	border-radius: 0.3em;
-	margin-bottom: 1em;
+	border-radius: 0.5em;
+	margin-bottom: 0.5em;
 	font-weight: normal;
 	color: #222;
 	}
@@ -60,6 +60,7 @@ h1{border-bottom:2px solid #eee;letter-spacing:1px;clear:both;font-family:Verdan
 	}
 #port a.pp img {
 	width: 100%;
+	height: 60%;
 	border-top-right-radius: 0.3em;
 	border-top-left-radius: 0.3em;
 	}
