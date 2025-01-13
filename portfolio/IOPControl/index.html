@@ -28,42 +28,56 @@
 <h2>Project Page - Intraocular Pressure Control</h2>
 <div id="pi">
 	<p id="desc">
-		Under construction ...
+		Maintaining introaocular pressure stability is critical to surgical effectiveness and safety in intraocular surgery.
+		In cataract lens removal procedure, the continuous fluid irrigation and aspiration creates disturbances in the intraocular pressure, which subsequently causes deformation and damage to intraocular tissues.
+		Incidental surge phenomena, when materials blocking the aspiration pathway are suddenly released, creating sudden pressure drop and cornea collapse.
+		To improve the pressure stability under such severe pressure disturbances, this project presents an add-on irrigation and pressure control system to existing fluid control machine.
+		The effect of the enhanced dynamic response for the closed loop pressure control is demonstrated by reduced corneal deformation in pig eye experiment.
 	</p>
-	<!--<ul class="p">
+	<ul class="p">
 		<li>
-			<a href="FIG2.png" title>
-				<img src="FIG2.png" alt="">
-			</a>
+			<img src="surge_phenomenon.png" alt="">
 			<p>
-				This project used the existing IRISS robot and integrated OCT system.
+				The illustration of surge phenomenon due to occlusion at the aspiration port.
 			</p>
 		</li>
 		<li>
-			<a href="FIG17.png" title>
-				<img src="FIG17.png" alt="">
-			</a>
+			<img src="overview_picture.png" alt="">
 			<p>
-				The PC polishing process visualized through intra-operative OCT B-scans.
-				Glue and kenalog mixture was injected into the eye to represent residual lens materials.
-				The Irrigation/Aspiration (I/A) handpiece was used in this procedure.
+				Developed add-on fluid system (a) CAD model with the irrigation pump, microcontroller, and power supply.
+				(b) Physical pump system.
+				Note: Labeled number 1 is connected to the fluid control machine and number 2 is connected to the surgical instrument.
 			</p>
 		</li>
 		<li>
-			<a href="FIG19.png" title>
-				<img src="FIG19.png" alt="">
-			</a>
+			<img src="surge_comparison.png" alt="">
 			<p>
-				Representational comparison (a) before and (b) after PC polishing at the same cross-sectional plane.
+				Faster surge recovery with our IOP control.
+				To simulate occlusion at the aspiration port, the aspiration tube was manually squeezed to limit the flow rate until full blockage was created,
+				followed by releasing the tube to suddenly increase aspiration flow rate.
+				This will suddenly decrease the IOP and shallows the anterior chamber, thereby providing a good example for surge experiments.
+				To focus on the effectiveness of surge avoidance and eliminate the transient response, a strong vacuum of 600 mmHg was used and IOP control was turned on before applying the blockage.
+			</p>
+			<p>
+				In the left figure, there is an transient increase in IOP when the aspiration tube is blocked.
+				The blockage was released at t = 2 s, which can be observed by the spike in pasp and the aspiration was suddenly engaged.
+				The response of our system shows a reduced surge peak and recovery time compared to the one with only intravenous (IV) pole control in existing surgical systems.
+			</p>
+		</li>
+		<li>
+			<img src="surge_oct.png" alt="">
+			<p>
+				Tissue positions were evaluated with the optical coherence tomograph (OCT) cross-sectional visualization when the lowest IOP occurs,
+				which further showcases that the system can avoid tissue damage and deformation.
+				(a) With only IV pole control. (b) Our system.
 			</p>
 		</li>
 	</ul>
 
 	<h3> Publications </h3>
 	<ul class="a">
-		<li><strong>Accurate Robotic Posterior Capsule Polishing With Tissue Stabilization</strong>, Y.H. Lee, <u>Y.T. Lai</u>, M.J. Gerber, J. Dodds, J.P. Hubschman, J. Rosen, and T.C. Tsao, <em>IEEE Transaction on Mechatronics</em>, 2023. <a href="https://doi.org/10.1109/TMECH.2023.3278684" title="DOI">DOI</a> | <a href="../../papers/2023_pcPolishing.pdf" title="PDF">PDF</a></li>
+		<li><strong>Add-On Fluidic Control System for Enhancing Intraocular Pressure Stabilization and Reducing Tissue Deformation</strong>, <u>Y.T. Lai</u>, A. Barzelay, and T.C. Tsao, <em>2024 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)</em>, 2024. <a href="https://doi.org/10.1109/AIM55361.2024.10637017" title="DOI">DOI</a> | <a href="2024_iopSurge.pdf" title="PDF">PDF</a></li>
 		</ul>
-	-->
 </div>
 
 
@@ -73,8 +87,8 @@
 
 <!-- footer -->
 <div id="f">
-	<span>&copy;2023 Kevin Lai</span>
-	<span><strong><a href="mailto:yutingkevinlai@ucla.edu">yutingkevinlai@ucla.edu</a></strong></span>
+	<span>&copy;2025 Kevin Lai</span>
+	<span><strong><a href="mailto:yutingkevinlai@gmail.com">yutingkevinlai@gmail.com</a></strong></span>
 	<span>1540 Boelter Hall, 420 Westwood Plaza, Los Angeles, CA</span>
 	</div>
 </div><!--#c-->
